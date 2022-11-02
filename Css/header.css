@@ -1,0 +1,160 @@
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid rgb(187, 174, 174);
+  z-index: 1;
+}
+
+header img {
+  cursor: pointer;
+}
+
+.left-section {
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.yt-logo {
+  width: 100px;
+  height: 80px;
+}
+
+.menu {
+  width: 40px;
+  height: 30px;
+  margin: 0 18px;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 55px;
+  width: 0;
+}
+
+input {
+  max-width: 400px;
+  height: 32px;
+  width: 80%;
+}
+
+button {
+  width: 50px;
+  height: 32px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+button div {
+  bottom: -38px;
+  left: -1.5px;
+}
+
+button:hover div {
+  opacity: 1;
+}
+
+img.ss {
+  width: 25px;
+  padding-top: 1.5px;
+}
+
+.voice-search,
+button,
+.upload,
+.ytapps,
+.notifications {
+  position: relative;
+}
+
+.search {
+  width: 30px;
+  height: 27px;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  padding: 4px 2px;
+  margin-top: 2.7px;
+}
+
+.right-section {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.right-section img {
+  width: 15x;
+  height: 25px;
+  margin-right: 17px;
+}
+
+.mm .my-channel {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.voice-search div,
+button div,
+.upload div,
+.ytapps div,
+.notifications div {
+  background-color: gray;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 2px;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.voice-search div {
+  bottom: -33px;
+  left: -25px;
+  white-space: nowrap;
+}
+
+.voice-search:hover div {
+  opacity: 1;
+}
+
+.upload div {
+  bottom: -37px;
+  left: -15px;
+}
+
+.upload:hover div {
+  opacity: 1;
+}
+
+.ytapps div {
+  bottom: -37px;
+  left: -30px;
+  white-space: nowrap;
+}
+
+.ytapps:hover div {
+  opacity: 1;
+}
+
+.notifications div {
+  bottom: -37px;
+  left: -25px;
+}
+
+.notifications:hover div {
+  opacity: 1;
+}

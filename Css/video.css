@@ -1,0 +1,76 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+    row-gap: 35px;
+}
+
+
+
+.thumb {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.thumbnails {
+    position: relative;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    padding: 2px 4px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+div {
+    font-family: Arial;
+    color: rgb(155, 148, 148);
+    font-size: 12px;
+    
+}
+
+.video {
+    display: flex;
+}
+
+.channel-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.youtuber {
+    margin-bottom: 5px;
+}
+
+.title {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    flex: 1;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 750px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (width: 500px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
